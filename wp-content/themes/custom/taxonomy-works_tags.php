@@ -8,7 +8,7 @@ get_header();
   <!--category-->
   <section class="category">
     <div class="container">
-      <h1>Category - <?= $tags->name ?></h1>
+      <h1>Tags - <?= $tags->name ?></h1>
       <h2>term_id: <?= $tags->term_id ?></h2>
       <h2>name: <?= $tags->name ?></h2>
       <h2>slug: <?= $tags->slug ?></h2>

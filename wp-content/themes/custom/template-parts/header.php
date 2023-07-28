@@ -18,6 +18,11 @@
           <li class="header__item<?= ($post->post_name === 'contact-us') ? ' header__item--active' : '' ?>">
             <a class="header__link" href="<?= site_url('contact-us') ?>">Contact Us</a>
           </li>
+          <li class="header__item">
+            <form action="#">
+              <input type="search">
+            </form>
+          </li>
         </ul>
       </nav>
       <!--burger-menu-->
