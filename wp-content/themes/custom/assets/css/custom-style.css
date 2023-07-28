@@ -1,0 +1,51 @@
+/* ------------------------------------------------------------------------------
+@name: Custom Style
+@description: If want custom style in here
+--------------------------------------------------------------------------------- */
+
+/* category */
+.section-primary__category {
+  padding-left: 0;
+  margin-top: 8px;
+  margin-bottom: 0;
+  list-style: none;
+}
+.section-primary__category li {
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+.section-primary__category a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* tags */
+.section-primary__tags {
+  padding-left: 0;
+  margin-top: 8px;
+  margin-bottom: 0;
+  list-style: none;
+}
+.section-primary__tags li {
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+.section-primary__tags a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.category h2 {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.category__back {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+  margin-top: 24px;
+  font-weight: 500;
+}
