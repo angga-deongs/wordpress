@@ -69,8 +69,8 @@
 
               // --- taxonomy tags
               $tax_tags = [];
-              if (get_the_terms(get_the_ID(), 'works_tags')) foreach (get_the_terms(get_the_ID(), 'works_tags') as $tags):
-                $tax_tags[] = $tags->name;
+              if (get_the_terms(get_the_ID(), 'works_tags')) foreach (get_the_terms(get_the_ID(), 'works_tags') as $tag):
+                $tax_tags[] = $tag->name;
               endforeach; 
             ?>
               <!--card-primary-->
