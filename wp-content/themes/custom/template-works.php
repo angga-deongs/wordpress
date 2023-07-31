@@ -82,8 +82,8 @@
                   </figure>
                   <h5 class="card-primary__category"><?= implode(',', $tax_category) ?> - <?= get_the_date() ?></h5>
                   <h2 class="card-primary__title"><?= get_the_title() ?></h2>
-                  <h5 class="card-primary__category" style="margin-top: 12px;"><?= implode(', ', $tax_tags) ?></h5>
-                  <p><?= get_the_excerpt() ?></p>
+                  <h5 class="card-primary__tags"><?= implode(', ', $tax_tags) ?></h5>
+                  <p class="card-primary__excerpt"><?= get_the_excerpt() ?></p>
                   <div class="card-primary__arrow">
                     <i class="fi fi-arrow-right"></i>
                   </div>
